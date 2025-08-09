@@ -192,7 +192,7 @@ header {
       }
            @media screen and (max-width: 492px) {
           position: absolute;
-        width: 50%;
+        width: 90%;
         top: 150%;
         left: 30%;
 
@@ -201,9 +201,9 @@ header {
 
          @media screen and (min-width: 492px) and (max-width: 767px) {
           position: absolute;
-        width: 50%;
+        width: 80%;
         top: 170%;
-        left: 30%;
+        left: 20%;
 
        
     }
@@ -227,15 +227,15 @@ header {
       }
 
       @media screen and (min-width: 768px) and (max-width: 999px) {
-        width: 500px;
+        width: 80%;
         top: 110%;
         left: 10%;
       }
 
       @media screen and (min-width: 492px) and (max-width: 767px) {
-        width: 70%;
+        width: 90%;
         top: 200%;
-        left: 15%;
+        left: 5%;
       }
       @media screen and (max-width: 492px){
         width: 70%;
