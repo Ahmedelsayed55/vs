@@ -303,7 +303,7 @@ header {
 
 .sec3 {
   width: 100%;
-  padding: 100px 10px;
+  padding: 100px 10px 0;
   height: 150vh;
   display: flex;
   justify-content: center;
@@ -319,6 +319,7 @@ header {
     height: 200vh;
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
   }
 
   @media screen and (max-width: 767px) {
@@ -327,6 +328,7 @@ header {
 
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
 
     gap: 100px;
   }
@@ -349,7 +351,7 @@ header {
     flex-direction: column;
     gap: 1.2rem;
     h2 {
-      font-size: clamp(1rem, 3vw, 2.3rem);
+      font-size: clamp(2rem, 3vw, 2.3rem);
       font-weight: 500;
       width: 80%;
     }
@@ -480,5 +482,83 @@ header {
       }
     }
   }
+}
+}
+
+.sec4 {
+background-image: url(./img/0deb95780006ded47c0b24ebfd6a09a0.jpeg);
+background-size: cover;
+background-position: center 30%;
+border: none;
+margin-top: -50px;
+
+
+  @media screen and (max-width: 767px) {
+background-position: center;
+margin-top: -400px;
+  }
+
+
+
+.container{
+  max-width: 1500px;
+margin: 0 auto;
+padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  gap: 2rem;
+  flex-wrap: wrap;
+  
+  padding: 1rem;
+
+  .card{
+    width: 366px;
+    height: 405px;
+    padding: 2.5rem 2rem;
+    background-color: #e9e9e979;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+   @media screen and (min-width: 768px) and (max-width: 999px) {
+      width: 430px;
+      height: 300px;
+    }
+
+
+    h2{
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #000000c9;
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      span{
+        font-size: 7rem;
+        color: #346473;
+      }
+    }  
+    p{
+      line-height: 2;
+      color: #000000c9;
+    }  
+    a{
+      width: 16%;
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+      border-bottom: 2px solid #346473;
+      padding: 0.5rem 0;
+     
+      &:hover{
+           border-bottom: 2px solid #000;
+        color: #346473;
+      }
+    }
+    }
+
 }
 }
